@@ -2,8 +2,10 @@
 
 /* CONFIGURATION */
 
+include "config.php";
+
 // set your Alma Hours API Key
-define("ALMA_HOURS_API_KEY","XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+define("ALMA_HOURS_API_KEY",$alma_key);
 
 // set the Caching Frequency - Daily, Hourly or None (recommended default: Daily)
 define("CACHE_FREQUENCY","Daily");
